@@ -1,13 +1,11 @@
-import CustomButton from './components/UI/button/CustomButton';
-import CustomTextArea from './components/UI/textarea/CustomTextArea';
+import CreateNewMessage from './components/CreateNewMessage';
 
 function App() {
-  return (
-    <div>
-      <CustomTextArea rows="4"/>
-      <CustomButton>Send a message</CustomButton>
-    </div>
-  );
+    return (
+        <div>
+            <CreateNewMessage />
+        </div>
+    );
 }
 
 export default App;

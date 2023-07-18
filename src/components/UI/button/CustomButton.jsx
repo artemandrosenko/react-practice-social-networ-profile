@@ -6,6 +6,6 @@ const CustomButton = ({ children }) => {
             {children}
         </button>
     );
-}
+};
 
 export default CustomButton;
