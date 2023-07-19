@@ -19,7 +19,6 @@
     bottom: auto;
     border: 5px solid;
     border-color: transparent transparent #dbe0e3 #dbe0e3;
-    /* border-color: transparent transparent red red; */
 }
 
 .msg::after {
@@ -29,9 +28,8 @@
     height: 0;
     left: 31px;
     right: auto;
-    top: -9px;
+    top: -8px;
     bottom: auto;
     border: 5px solid;
     border-color:  transparent transparent #f2fbff #f2fbff;
-    /* border-color:  transparent transparent green green; */
 }
