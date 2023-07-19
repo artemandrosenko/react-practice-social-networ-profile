@@ -1,0 +1,37 @@
+.msg {
+    padding: 20px;
+    border: 1px solid #dbe0e3;
+    background-color: #f2fbff;
+}
+
+.msgContainer {
+    position: relative;
+}
+
+.msg::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 30px;
+    right: auto;
+    top: -9px;
+    bottom: auto;
+    border: 5px solid;
+    border-color: transparent transparent #dbe0e3 #dbe0e3;
+    /* border-color: transparent transparent red red; */
+}
+
+.msg::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 31px;
+    right: auto;
+    top: -9px;
+    bottom: auto;
+    border: 5px solid;
+    border-color:  transparent transparent #f2fbff #f2fbff;
+    /* border-color:  transparent transparent green green; */
+}
