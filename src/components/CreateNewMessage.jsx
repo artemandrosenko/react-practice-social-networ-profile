@@ -5,8 +5,10 @@ import classes from './CreateNewMessage.module.css';
 const CreateNewMessage = () => {
     return (
         <footer className={classes.footer}>
-            <CustomTextArea rows="4" />
-            <CustomButton>Send a message</CustomButton>
+            <form>
+                <CustomTextArea rows="4" />
+                <CustomButton >Send a message</CustomButton>
+            </form>
         </footer>
     );
 };

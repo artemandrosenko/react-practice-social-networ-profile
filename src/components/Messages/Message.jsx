@@ -1,6 +1,6 @@
-import classes from './Msg.module.css';
+import classes from './Message.module.css';
 
-const Msg = (props) => {
+const Message = (props) => {
     return (
         <div className={classes.msgContainer}>
             <p className={classes.msg}>{props.review.msg}</p>
@@ -8,4 +8,4 @@ const Msg = (props) => {
     );
 }
 
-export default Msg;
+export default Message;
