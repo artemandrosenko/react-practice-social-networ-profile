@@ -12,11 +12,15 @@ function App() {
             msg: 'Eva, hello! There is such a question: How can I contact you if I am abroad in roaming?',
         }
     ]);
+  
+  const addNewMessage = (newMessage) => { 
+    setReview([...review, newMessage]);
+  };
 
     return (
         <div>
             <MessageList review={review} />
-            <CreateNewMessage />
+        <CreateNewMessage onAddMessage={ addNewMessage } />
         </div>
     );
 }
