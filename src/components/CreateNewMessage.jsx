@@ -20,7 +20,7 @@ const CreateNewMessage = (props) => {
         return () => {
             document.removeEventListener('keydown', keyDownHandler);
         };
-    }, [keyDownHandler]);
+    });
 
     const submitHandler = (event) => {
         event.preventDefault();
