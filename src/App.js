@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import MessageList from './components/Messages/MessagesList';
 import CreateNewMessage from './components/CreateNewMessage';
+import ServicesList from './components/Services/ServicesList';
+import classes from './App.module.css';
 
 function App() {
     const [review, setReview] = useState([
@@ -26,7 +28,8 @@ function App() {
     };
 
     return (
-        <div>
+        <div className={classes.wrapper}>
+            <ServicesList />
             <MessageList review={review} />
             <CreateNewMessage onAddMessage={addNewMessage} />
         </div>
