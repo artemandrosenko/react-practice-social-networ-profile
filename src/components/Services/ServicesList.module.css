@@ -11,3 +11,22 @@
     border-bottom: 2px solid #dbe0e3;
     text-align: right;
 }
+
+.total__box {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px; 
+    line-height: 26px;
+}
+
+.total {
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.total__value {
+    margin-right: 40px;
+    margin-left: 20px;
+    font-weight: 700;
+    line-height: 15px;
+}

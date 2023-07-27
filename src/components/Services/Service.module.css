@@ -1,0 +1,29 @@
+.service {
+    display: flex;
+    justify-content: space-between;
+    line-height: 26px;
+}
+
+.outer {
+    width: 100%;
+}
+
+.value {
+    margin-right: 40px;
+    margin-left: 20px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.fill {
+    margin: 2px 0;
+    background-color: #ace2f8;
+}
+
+.max {
+    background-color: #b1e19b;
+}
+
+span {
+    padding: 5px;
+}
