@@ -1,0 +1,18 @@
+.a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #005da1;
+    cursor: pointer;
+}
+
+.a:visited {
+    color: #551a8b;
+}
+
+.active {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #333;
+}
