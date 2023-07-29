@@ -12,11 +12,13 @@
     margin-right: 40px;
     margin-left: 20px;
     font-weight: 700;
-    line-height: 15px;
+    line-height: 30px;
 }
 
 .fill {
     margin: 2px 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     background-color: #ace2f8;
 }
 
