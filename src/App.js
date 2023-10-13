@@ -3,6 +3,7 @@ import MessageList from './components/Messages/MessagesList';
 import CreateNewMessage from './components/CreateNewMessage';
 import ServicesList from './components/Services/ServicesList';
 import classes from './App.module.css';
+import Filter from './components/Filter';
 
 function App() {
     const [review, setReview] = useState([
@@ -29,6 +30,7 @@ function App() {
 
     return (
         <div className={classes.wrapper}>
+            <Filter />
             <ServicesList />
             <MessageList review={review} />
             <CreateNewMessage onAddMessage={addNewMessage} />
